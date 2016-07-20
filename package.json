@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/wvillegasm/jsdef#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "install": "^0.8.1",
+    "materialize-css": "^0.97.6"
   }
 }
