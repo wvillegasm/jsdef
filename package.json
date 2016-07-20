@@ -1,0 +1,26 @@
+{
+  "name": "jsdefinitivo",
+  "version": "1.0.0",
+  "description": "Share pictures with other students",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wvillegasm/jsdef.git"
+  },
+  "keywords": [
+    "js",
+    "course"
+  ],
+  "author": "WVM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wvillegasm/jsdef/issues"
+  },
+  "homepage": "https://github.com/wvillegasm/jsdef#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
