@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0 0 200em 0;
+}
+
+section {
+    border: 2px dashed steelblue;
+    width: 500px;
+    height: 400px;
+    /*min-width: 400px;*/
+    margin: 5em auto;
+}
+
+div {
+    border-radius: 5px;
+    color: #444;
+    font-size: 2.8em;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: .5em;
+    text-align: center;
+    background: rgba(173, 216, 230, 0.7);
+}
+
+/*
+Position:
+
+    STATIC Default -- Is not considered as positioned
+
+    Only this could leave the flow
+    RELATIVE - everything remain equal, remain the space
+    ABSOLUTE
+    FIXED - change
+
+    Properties:
+     RELATIVE - top, for % works only if the parent has a defined height
+                the initial position is taken from the current position
+     right, bottom, left, z-index
+
+     ABSOLUTE: break the flow, if size is adapting to the content (no height/width)
+                the initial positioned is taken from first near parent (chain positioned)
+
+
+     FIXED: coordinates start to navigator, never move of scroll
+
+     z-index: Best practices, set wide range of numbers: 10-20-30
+
+}
